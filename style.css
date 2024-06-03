@@ -9,7 +9,7 @@ body {
 }
 
 header {
-    background-color: transparent; /* Cambiado a transparente */
+    background-color: transparent;
     color: black; /* Cambiado a negro para mejor visibilidad */
     padding: 15px;
     display: flex;
