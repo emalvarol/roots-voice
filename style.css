@@ -10,7 +10,7 @@ body {
 
 header {
     background-color: transparent; /* Cambiado a transparente */
-    color: white;
+    color: black; /* Cambiado a negro para mejor visibilidad */
     padding: 15px;
     display: flex;
     justify-content: space-between;
@@ -19,6 +19,7 @@ header {
     width: 100%;
     top: 0;
     left: 0;
+    z-index: 10; /* Asegura que el header esté encima del contenido principal */
 }
 
 #logo-nombre {
@@ -46,7 +47,7 @@ header {
     display: block;
     width: 5px;
     height: 5px;
-    background-color: black; /* Cambiar el color según sea necesario */
+    background-color: black; /* Cambiar el color a negro para mejor visibilidad */
     border-radius: 50%;
     margin: 2px;
 }
@@ -60,6 +61,7 @@ header {
     color: black;
     border: 1px solid #ccc;
     padding: 10px;
+    z-index: 10; /* Asegura que el menú esté encima del contenido principal */
 }
 
 #menu:hover #menu-content {
@@ -69,7 +71,7 @@ header {
 main {
     flex: 1;
     padding: 20px;
-    margin-top: 0; /* Ajustar según la altura del header */
+    margin-top: 50px; /* Ajustar según la altura del header para evitar el desplazamiento */
 }
 
 section {
